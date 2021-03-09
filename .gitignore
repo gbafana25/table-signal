@@ -1,0 +1,6 @@
+server/yotta_*
+repo_token
+server/build
+client/build
+client/yotta_*
+layout
