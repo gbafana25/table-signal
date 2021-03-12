@@ -6,7 +6,7 @@ MicroBit mbit;
 
 void flash_display() {
 	while(true) {
-		mbit.display.print("||||", 100);
+		mbit.display.scroll("READY", 100);
 		mbit.sleep(100);
 	}
 
@@ -29,7 +29,7 @@ void listener(MicroBitEvent event) {
 
 int main() {
 	mbit.init();
-	mbit.radio.enable();
+	mbit.radio.enable();	
 	while(true) {
 		mbit.messageBus.listen(MICROBIT_ID_RADIO, MICROBIT_RADIO_EVT_DATAGRAM, listener);
 	}
