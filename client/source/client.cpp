@@ -6,7 +6,7 @@ MicroBit mbit;
 
 void flash_display() {
 	while(true) {
-		mbit.display.print("|||||", 100);
+		mbit.display.print("||||", 100);
 		mbit.sleep(100);
 	}
 
