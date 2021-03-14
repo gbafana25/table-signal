@@ -14,3 +14,8 @@ The client listens for the number broadcasted by the server, and then prints "RE
 3. copy `server-combined.hex` from `table-signal/server/build/bbc-microbit-classic-gcc/source/` onto the microbit you want to use as the server (the one that the lunch prefect will use)
 4. copy `client-combined.hex` from `table-signal/client/build/bbc-microbit-classic-gcc/source/` onto each of the client microbits (the one's that will be at the tables)
 
+## To Do
+- [x] programming: client/server code
+- [ ] case for microbit (either dual purpose or separate client/server versions)
+- [ ] test both client/server working together (make sure radio part is working)
+
