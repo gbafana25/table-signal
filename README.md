@@ -9,10 +9,11 @@ The server uses the two buttons on the microbit to call up tables from both side
 The client listens for the number broadcasted by the server, and then prints "READY" on the display
 
 ## Setup
-1. follow the instructions on the [microbit runtime website](https://lancaster-university.github.io/microbit-docs/offline-toolchains//) in order to install the necessary tools
-2. in both the `client` and `server` directories, run `yt build`
-3. copy `server-combined.hex` from `table-signal/server/build/bbc-microbit-classic-gcc/source/` onto the microbit you want to use as the server (the one that the lunch prefect will use)
-4. copy `client-combined.hex` from `table-signal/client/build/bbc-microbit-classic-gcc/source/` onto each of the client microbits (the one's that will be at the tables)
+Follow the instructions on the [microbit runtime website](https://lancaster-university.github.io/microbit-docs/offline-toolchains//) in order to install the necessary tools
+### Compiling/Uploading - now handled by `setup.sh`
+- in both the `client` and `server` directories, run `yt build`
+- copy `server-combined.hex` from `table-signal/server/build/bbc-microbit-classic-gcc/source/` onto the microbit you want to use as the server (the one that the lunch prefect will use)
+- copy `client-combined.hex` from `table-signal/client/build/bbc-microbit-classic-gcc/source/` onto each of the client microbits (the one's that will be at the tables)
 
 ## To Do
 - [x] programming: client/server code
