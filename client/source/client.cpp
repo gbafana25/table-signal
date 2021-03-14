@@ -1,5 +1,5 @@
 #include "MicroBit.h"
-#define TABLE_NUM 1
+#define TABLE_NUM 5
 
 MicroBit mbit;
 

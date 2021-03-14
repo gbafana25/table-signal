@@ -16,6 +16,7 @@ The client listens for the number broadcasted by the server, and then prints "RE
 
 ## To Do
 - [x] programming: client/server code
+- [x] make helper script for compiling and changing client table id
 - [ ] case for microbit (either dual purpose or separate client/server versions)
 - [ ] test both client/server working together (make sure radio part is working)
 
