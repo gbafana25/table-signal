@@ -10,6 +10,6 @@ The client listens for the number broadcasted by the server, and then lights up 
 
 ## Setup
 - Run `setup.sh` to change the table number for the client device (before uploading)
-- Create a hex file for both programs with the [Mu editor](https://codewith.mu/en/download) or the [microbit python web editor](https://python.microbit.org/v/2)
+- Create a hex file for both `client.py` and `server.py` with the [Mu editor](https://codewith.mu/en/download) or the [microbit python web editor](https://python.microbit.org/v/2)
 - Drag and drop `.hex` files onto microbit
 
