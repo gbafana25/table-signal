@@ -4,20 +4,12 @@ A common problem at lunch this year has been that since tables aren't called in 
 
 ## How it Works
 ### Server
-The server uses the two buttons on the microbit to call up tables from both sides of the lunch room (there are also 2 lines).  When the prefect presses one of the buttons, it sends out a radio signal with the table number that can join the line.  
+The server uses the two buttons on the microbit to call up tables from both sides of the lunch room (there are 2 lines).  When the prefect presses one of the buttons, it sends out a radio signal with the table number that can join the line.  
 ### Client
-The client listens for the number broadcasted by the server, and then prints "READY" on the display
+The client listens for the number broadcasted by the server, and then lights up the leds when it receives it number.
 
 ## Setup
-Follow the instructions on the [microbit runtime website](https://lancaster-university.github.io/microbit-docs/offline-toolchains//) in order to install the necessary tools
-### Compiling/Uploading - now handled by `setup.sh`
-- in both the `client` and `server` directories, run `yt build`
-- copy `server-combined.hex` from `table-signal/server/build/bbc-microbit-classic-gcc/source/` onto the microbit you want to use as the server (the one that the lunch prefect will use)
-- copy `client-combined.hex` from `table-signal/client/build/bbc-microbit-classic-gcc/source/` onto each of the client microbits (the one's that will be at the tables)
-
-## To Do
-- [x] programming: client/server code
-- [x] make helper script for compiling and changing client table id
-- [ ] case for microbit (either dual purpose or separate client/server versions)
-- [ ] test both client/server working together (make sure radio part is working)
+- Run `setup.sh` to change the table number for the client device (before uploading)
+- Create a hex file for both programs with the [Mu editor](https://codewith.mu/en/download) or the [microbit python web editor](https://python.microbit.org/v/2)
+- Drag and drop `.hex` files onto microbit
 

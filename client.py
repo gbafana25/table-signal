@@ -2,7 +2,7 @@ from microbit import *
 import radio
 import utime
 
-TABLE_NUM = 2
+TABLE_NUM = 3
 radio.on()
 
 all_on = Image(
